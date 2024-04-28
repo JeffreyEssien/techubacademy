@@ -1,6 +1,9 @@
+import Image from "next/image"
+import image2 from '../images/logo.png'
+
 export default function Footer() {
     return(
-        <div className="bg-[#C3E3C8] text-black py-10">
+        <div className="bg-[#C3E3C8] text-black py-10 mt-20">
             <p className="text-center font-bold text-[1.7rem]">Let's get started on something great</p>
             <p className="text-[#475467] text-center pb-10">Join us, togain expertise, and earn certification</p>
 
@@ -69,6 +72,11 @@ export default function Footer() {
                     <p>Pricing</p>
                     <p>Releases</p>
                 </div>
+            </div>
+            <div className="bg-[#C3E3C8] border-t border-t-white w-[85%] mt-20 mx-auto flex flex-col xl:flex-row justify-between">
+                <Image src={image2} alt="image" />
+
+                <p className="text-[#667085]">© 2024 Tech-Hub Academy. All rights reserved.</p>
             </div>
         </div>
     )

@@ -1,6 +1,7 @@
 import { FaLocationCrosshairs, FaLocationPin } from "react-icons/fa6";
 import Navbar from "../navbar/page";
 import { FaLinkedin, FaInstagram, FaLocationArrow, FaPhone } from 'react-icons/fa'
+import Footer from "../footer/page";
 
 export default function Contact() {
     return(
@@ -28,12 +29,13 @@ export default function Contact() {
                     <p className="text-[#32853D] mx-4 pt-5">Abiodun Shobajo Street, Agidingbi, Ikeja, Lagos</p>
                 </div>
 
-                <div className="bg-[#ECF6ED] rounded-lg flex flex-col py-4 w-[80%] mx-auto xl:w-1/6">
+                <div className="bg-[#ECF6ED] rounded-lg flex flex-col py-4 w-[80%] mx-auto mb-10 xl:w-1/6">
                     <p className="bg-[#389544] px-3 py-3 text-[1.2rem] text-white mx-4 my-4 w-[2.8rem]"><FaPhone /></p>
                     <p className="pt-8 mx-4 font-medium">Call us</p>
                     <p className="text-[#32853D] mx-4 pt-5">+1 (555) 000-0000</p>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
